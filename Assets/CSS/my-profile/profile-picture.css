@@ -4,3 +4,11 @@
 
     border-radius: 49%;
 }
+
+.profile-picture .profile-picture--circle{
+    border-color: #000;
+    background: #000;    
+
+    width: 98px;
+    height: 98px;
+}
