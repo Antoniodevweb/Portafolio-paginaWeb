@@ -1,0 +1,20 @@
+.profile__links{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.profile__links .profile__links--list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--base-color-font);
+}
+
+
