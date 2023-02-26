@@ -17,4 +17,9 @@
     color: var(--base-color-font);
 }
 
+.links::after{
+    content: url("/img/Vector.png");
+}
+
+
 
