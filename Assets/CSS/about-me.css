@@ -1,0 +1,9 @@
+.about__me{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 318px;
+    top: 1rem;
+    left: 1rem;
+    gap: 1rem;
+}
