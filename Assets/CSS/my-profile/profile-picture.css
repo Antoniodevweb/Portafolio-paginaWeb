@@ -1,14 +1,15 @@
 .profile__picture{
-    width: 98px;
-    height: 98px;
-
-    border-radius: 49%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .profile-picture .profile-picture--circle{
-    border-color: #000;
-    background: #000;    
-
-    width: 98px;
-    height: 98px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
 }
