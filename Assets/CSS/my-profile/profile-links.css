@@ -12,7 +12,7 @@
     align-content: space-around;
 }
 
-.link{
+.links{
     text-decoration: none;
     color: var(--base-color-font);
 }
