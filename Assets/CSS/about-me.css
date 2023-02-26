@@ -1,9 +1,12 @@
 .about__me{
     display: flex;
+    align-self: flex-start;
     flex-direction: column;
     width: 328px;
     height: 318px;
     top: 1rem;
     left: 1rem;
     gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
 }

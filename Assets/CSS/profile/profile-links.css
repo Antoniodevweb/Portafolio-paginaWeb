@@ -1,7 +1,7 @@
 .profile__links{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
 }
 
 .links{
@@ -19,7 +18,9 @@
 
 .links::after{
     content: url("/img/Vector.png");
+    color: var(--base-color-font);
 }
+
 
 
 
