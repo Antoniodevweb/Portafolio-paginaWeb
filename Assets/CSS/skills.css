@@ -2,3 +2,11 @@
     width: 360px;
     height: 508px;
 }
+
+.skills__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
