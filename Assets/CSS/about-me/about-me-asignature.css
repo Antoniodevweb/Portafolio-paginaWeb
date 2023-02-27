@@ -3,3 +3,8 @@
     height: 68px;
     object-fit: cover;
 }
+
+.description__image{
+    width: 159px;
+    height: 68px;
+}
