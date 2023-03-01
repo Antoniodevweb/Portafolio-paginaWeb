@@ -1,10 +1,10 @@
-.skills{
+.hard__skills{
     background: var(--background-sections-grey);
     width: 360px;
     height: 508px;
 }
 
-.skills__container{
+.hard__container{
     display: flex;
     justify-content: space-around;
     align-items: center;

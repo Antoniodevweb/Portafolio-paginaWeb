@@ -1,4 +1,4 @@
-.items__hard-box{
+.hard__items-box{
     display: flex;
     width: 156px;
     height: 118px;
@@ -7,14 +7,14 @@
     border: 1px solid black;
 }
 
-.img__hard-box{
+.hard__img-box{
     align-self: center;
     width: 24px;
     height: 37px;
     margin-left: 0.5rem;
 }
 
-.text__hard-box{
+.hard__text-box{
     align-self: flex-end;
     margin-left: -1.4rem;
     margin-bottom: 1rem;
