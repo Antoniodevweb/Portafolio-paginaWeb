@@ -1,4 +1,5 @@
 .skills{
+    background: var(--background-sections-grey);
     width: 360px;
     height: 508px;
 }
