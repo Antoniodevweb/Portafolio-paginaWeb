@@ -1,4 +1,4 @@
-.items_hobbie-box{
+.hobbie_items-box{
     display: flex;
     width: 156px;
     height: 118px;
@@ -7,14 +7,14 @@
     border: 1px solid black;
 }
 
-.img__hobbie-box{
+.hobbie__img-box{
     align-self: center;
     width: 24px;
     height: 37px;
     margin-left: 0.5rem;
 }
 
-.tex__hobbie-box{
+.hobbie__text-box{
     align-self: flex-end;
     margin-left: -1.4rem;
     margin-bottom: 1rem;
