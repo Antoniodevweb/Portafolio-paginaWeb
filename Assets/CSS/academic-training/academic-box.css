@@ -6,3 +6,8 @@
     background: var(--background-origin-white);
     border: 1px solid black;
 }
+
+.academic__img-box{
+    width: 145px;
+    height: 80px;
+}
