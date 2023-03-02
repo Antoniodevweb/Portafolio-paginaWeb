@@ -1,0 +1,21 @@
+.soft__items-box{
+    display: flex;
+    width: 156px;
+    height: 118px;
+    margin-bottom: 1rem;
+    background: var(--background-origin-white);
+    border: 1px solid black;
+}
+
+.soft__img-box{
+    align-self: center;
+    width: 24px;
+    height: 37px;
+    margin-left: 0.5rem;
+}
+
+.soft__text-box{
+    align-self: flex-end;
+    margin-left: -1.4rem;
+    margin-bottom: 1rem;
+}

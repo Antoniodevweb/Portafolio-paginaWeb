@@ -1,0 +1,13 @@
+.soft__skills{
+    background: var(--background-sections-grey);
+    width: 360px;
+    height: 508px;
+}
+
+.soft__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
