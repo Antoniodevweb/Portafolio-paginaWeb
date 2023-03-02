@@ -1,0 +1,9 @@
+.academic__training{
+    background: var(--background-sections-grey);
+    width: 360px;
+    height: 508px;
+}
+
+.academic__container{
+    display: flex;
+}
