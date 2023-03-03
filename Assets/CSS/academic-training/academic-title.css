@@ -5,14 +5,16 @@
 
 .academic__title-one{
     margin-left: -14.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .academic__title-two{
     font-size: 15px;
     margin-left: -1rem;
+    margin-bottom: 0.5rem;
 }
 
 .academic__title-three{
-    font-size: 16px;
     margin-left: -9.2rem;
+    margin-bottom: 0.5rem;
 }
