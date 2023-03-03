@@ -1,7 +1,8 @@
 .academic__training{
     background: var(--background-sections-grey);
     width: 360px;
-    height: 508px;
+    height: auto;
+    margin-left: 0.5rem;
 }
 
 .academic__container{

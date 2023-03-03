@@ -1,0 +1,17 @@
+.academic__text{
+    font-family: var(--base-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.academic__text-one{
+    margin-left: -12.7rem;
+}
+
+.academic__text-two{
+    margin-left: -16.7rem;
+}
+
+.academic__text-three{
+    margin-left: -7.7rem;
+}

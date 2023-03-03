@@ -3,11 +3,12 @@
     width: 296px;
     height: 168px;
     margin-bottom: 1rem;
+    padding: 1rem;
     background: var(--background-origin-white);
     border: 1px solid black;
 }
 
 .academic__img-box{
-    width: 145px;
-    height: 80px;
+    width: 100%;
+    height: 100%;  
 }
