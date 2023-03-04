@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 1.8rem;
     background: var(--background-sections-grey);
     width: 360px;
-    height: 54px;
+    height: 40px;
     margin-left: 0.5rem;
 }
