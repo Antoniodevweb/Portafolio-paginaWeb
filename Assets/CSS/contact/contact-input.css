@@ -4,6 +4,7 @@
     padding-top: 1rem;
     border: none;
     outline: 0px;
+    border-bottom: 1px solid var(--background-button-demo-line);
 }
 
 .contact__textarea{
