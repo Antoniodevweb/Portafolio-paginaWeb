@@ -5,6 +5,8 @@
     padding: 0.8rem 1rem;
     box-sizing: border-box;
     background: var(--background-sections-grey);
+    align-self: flex-start;
+    display: inline;
 
     border: 1px solid var(--background-button-demo-line);
 }
@@ -16,6 +18,8 @@
     height: 40px;
     padding: 0.8rem 1rem;
     box-sizing: border-box;
+    display: inline;
+
 
     background: var(--background-button-demo-line);
     border: 1px solid var(--background-button-demo-line);

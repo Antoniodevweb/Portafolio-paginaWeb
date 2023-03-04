@@ -1,6 +1,6 @@
-.professional__experience-with-bttns{
+.professional__experience-without-bttns{
     width: 360px;
-    height: 248px;
+    height: 661px;
 
     margin-left: 0.5rem;
     display: flex;
@@ -9,3 +9,4 @@
 
     background: var(--background-sections-grey);
 }
+ 
