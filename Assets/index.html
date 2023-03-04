@@ -50,6 +50,8 @@
     <link rel="stylesheet" href="/Assets/CSS/professional-experience/professional-buttons-container.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-text.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-form.css">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contact-input.css">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contacto-label.css">
 </head>
 <body>
     <header class="header__presentation">
@@ -215,22 +217,29 @@
             <h2 class="professional__title-four">Tortilleria Yarina</h3>
             <p class="professional__text-four">2020 - rol producción</p>
         </section>
-        <footer class="contacto-copyright__footer">
-            <div class="contacto__text">
-                <h2 class="contacto__title">Contacto</h2>
-                <p class="contacto__text">Para contactarme</p>
-                <p class="contacto__text">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+        <footer class="contact-copyright__footer">
+            <div class="contact__text-container">
+                <h2 class="contact__title">Contacto</h2>
+                <p class="contact__text">Para contactarme</p>
+                <p class="contact__text">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
             </div>
-            <div>
-                <form class="contact__form-container">
-                    <input class="contacto__items" type="text" name="" placeholder="Nombre">
-                    <input class="contacto__items" type="email" name="" placeholder="Email">
-                    <input class="contacto__items" type="text" name="" placeholder="Asunto">
-                    <textarea class="contacto__textarea" name="" cols="30" rows="10" placeholder="Mensaje">
+            <form class="contact__form">
+                <input class="contact__items" type="text" name="">
+                <label class="contact__label">
+                    <span class="contact__span">Nombre</span>
+                </label>
+                <input class="contact__items" type="email" name="">
+                <label class="contact__label">
+                    <span class="contact__span">Email</span>
+                </label>
+                <input class="contact__items" type="text" name="">
+                <label class="contact__label">
+                    <span class="contact__span">Asunto</span>
+                </label>
+                <textarea class="contact__textarea" name="" cols="30" rows="10">
                 </textarea>
-                <input class="contacto__input-submit" type="submit" value="Enviar Mensaje">
-                </form>
-            </div>        
+                <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
+            </form>       
         </footer>
     </main>
 </body>

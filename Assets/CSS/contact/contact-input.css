@@ -1,0 +1,15 @@
+.contact__items{
+    width: 296px;
+    height: 56px;
+    padding-top: 1rem;
+    border: none;
+    outline: 0px;
+}
+
+.contact__textarea{
+    width: 296px;
+    height: 133px;
+    border: none;
+    padding-top: 1rem;
+    outline: 0px;
+}

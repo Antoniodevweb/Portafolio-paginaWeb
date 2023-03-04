@@ -1,4 +1,10 @@
-.contacto__title{
+.contact__text-container{
+    width: 296px;
+    height: 110px;
+}
+
+
+.contact__title{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -6,7 +12,7 @@
     margin: 1rem 1rem 1rem 1rem;
 }
 
-.contacto__text{
+.contact__text{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
