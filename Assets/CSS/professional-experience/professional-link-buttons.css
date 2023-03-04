@@ -1,0 +1,9 @@
+.professional__link-bttn-one{
+    text-decoration: none;
+    color: var(--background-button-demo-line);
+}
+
+.professional__link-bttn-two{
+    text-decoration: none;
+    color: var(--background-origin-white);
+}

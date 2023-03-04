@@ -1,0 +1,11 @@
+.professional__experience{
+    width: 360px;
+    height: 661px;
+
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: var(--background-sections-grey);
+}

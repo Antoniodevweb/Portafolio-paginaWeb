@@ -1,4 +1,6 @@
 .professional__img-box{
-    width: 300px;
-    height: 220px;
+    width: 296px;
+    height: 144px;
+
+    border: 1px solid var(--background-button-demo-line);
 }

@@ -4,7 +4,7 @@
     height: 118px;
     margin-bottom: 1rem;
     background: var(--background-origin-white);
-    border: 1px solid black;
+    border: 1px solid var(--background-button-demo-line);
 }
 
 .hard__img-box{

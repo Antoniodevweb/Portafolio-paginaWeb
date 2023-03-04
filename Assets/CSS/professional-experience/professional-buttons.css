@@ -1,0 +1,22 @@
+.professional__bttn-first{
+    border-radius: 0;
+    width: 108px;
+    height: 40px;
+    padding: 0.8rem 1rem;
+    box-sizing: border-box;
+    background: var(--background-sections-grey);
+
+    border: 1px solid var(--background-button-demo-line);
+}
+
+.professional__bttn-second{
+    border-radius: 0;
+
+    width: 108px;
+    height: 40px;
+    padding: 0.8rem 1rem;
+    box-sizing: border-box;
+
+    background: var(--background-button-demo-line);
+    border: 1px solid var(--background-button-demo-line);
+}
