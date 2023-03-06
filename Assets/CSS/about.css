@@ -20,3 +20,13 @@
     flex-direction: column;
     font-family: var(--base-font);
 }
+
+@media  screen and (min-width: 425px) {
+    .about{
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

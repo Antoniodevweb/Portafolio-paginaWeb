@@ -12,3 +12,21 @@
     width: 345px;
     height: 294px;
 }
+
+@media screen and (min-width: 768px) {
+    .profile{
+        width: 91.5vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .profile__container{
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+}

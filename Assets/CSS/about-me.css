@@ -14,3 +14,22 @@
     width: 328px;
     height: 318px;
 }
+
+@media  screen and (min-width: 768px) {
+    .about__me{
+        width: 100vw;
+        height: 17vh;
+    }
+
+    .about__me--container{
+        width: 91.5vw;
+        padding: 2rem;
+        height: 13vh;
+    }
+}
+
+@media  screen and (min-width: 425px) {
+    .about__me{
+        align-self: center;
+    }
+}
