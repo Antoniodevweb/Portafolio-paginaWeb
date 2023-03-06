@@ -12,3 +12,16 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+@media  screen and (min-width: 768px) {
+    .hobbies{
+        width: 100vw;
+        height: 21vh;
+    }
+
+    .hobbies__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
