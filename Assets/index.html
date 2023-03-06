@@ -49,6 +49,9 @@
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-form.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-input.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contacto-label.css">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contact-box.css">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contact-form-container.css">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contact-input-label-animation.css">
 </head>
 <body>
     <header class="header__presentation">
@@ -220,23 +223,34 @@
                 <p class="contact__text">Para contactarme</p>
                 <p class="contact__text">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
             </div>
-            <form class="contact__form">
-                <input class="contact__items" type="text" name="">
-                <label class="contact__label">
-                    <span class="contact__span">Nombre</span>
-                </label>
-                <input class="contact__items" type="email" name="">
-                <label class="contact__label">
-                    <span class="contact__span">Email</span>
-                </label>
-                <input class="contact__items" type="text" name="">
-                <label class="contact__label">
-                    <span class="contact__span">Asunto</span>
-                </label>
-                <textarea class="contact__textarea" name="" cols="30" rows="10">
-                </textarea>
-                <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
-            </form>       
+            <div class="contact__form-container">
+                <form class="contact__form">
+                    <div class="contact__box">
+                        <input class="contact__items" type="text" name="" id="textName">
+                        <label for="textName" class="contact__label">
+                        <span class="contact__span">Nombre</span>
+                        </label>
+                    </div>
+                    <div class="contact__box">
+                        <input class="contact__items" type="email" name="" id="e-mail">
+                        <label for="e-mail" class="contact__label">
+                        <span class="contact__span">Email</span>
+                        </label>
+                    </div>
+                    <div class="contact__box">
+                        <input class="contact__items" type="text" name="" id="textSubject">
+                        <label for="textSubject" class="contact__label">
+                        <span class="contact__span">Asunto</span>
+                        </label>
+                    </div>
+                    <div class="contact__box">
+                        <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
+                        </textarea>
+                        <label for="textArea" class="contact__label-textArea">Mensaje</label>
+                    </div>               
+                    <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
+                </form>
+            </div>       
         </footer>
     </main>
 </body>

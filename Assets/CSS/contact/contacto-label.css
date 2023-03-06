@@ -1,6 +1,14 @@
-.contact__items .contact__label{
+.contact__label{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
+    top: 20px;
+    background: var(--background-origin-white);
+    padding: 0 .5rem;
+    color: var(--background-contact-50);
+}
+
+.contact__label-textArea{
+    position: absolute;
+    top: 60px;
+    padding: 0 .5rem;
+    color: var(--background-contact-50);
 }

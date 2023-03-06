@@ -1,16 +1,29 @@
 .contact__items{
-    width: 296px;
-    height: 56px;
-    padding-top: 1rem;
+    display: block;
+    margin-bottom: 2rem;
     border: none;
     outline: 0px;
-    border-bottom: 1px solid var(--background-button-demo-line);
+    border-bottom: 1px solid var(--background-contact-50);
+    width: 296px;
+    height: 56px;
 }
 
 .contact__textarea{
     width: 296px;
     height: 133px;
+    margin-bottom: 1rem;
+    display: block;
     border: none;
-    padding-top: 1rem;
     outline: 0px;
+    border-bottom: 1px solid var(--background-contact-50);
+}
+
+.contact__input-submit{
+    width: 133px;
+    height: 40px;
+
+    color: var(--background-origin-white);
+    outline: 0;
+    border: 1px solid var(--background-button-demo-line);
+    background: var(--background-button-demo-line);
 }
