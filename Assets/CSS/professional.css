@@ -1,14 +1,14 @@
-.professional__experience-with-bttns{
-    width: 360px;
-    height: 399px;
+.professional__experience{
+    width: 296px;
+    height: 1257px;
 
-    margin-left: .5rem;
+    padding: 2rem;
 
     background: var(--background-sections-grey);
 }
 
 @media  screen and (min-width: 768px) {
-    .professional__experience-with-bttns{
+    .professional__experience{
         width: 100vw;
         height: 26vh;
     }

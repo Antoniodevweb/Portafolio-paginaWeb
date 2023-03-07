@@ -9,7 +9,6 @@
     padding: 0.8rem 1rem;
     box-sizing: border-box;
     background: var(--background-sections-grey);
-    margin-top: 1rem;
 
     border: 1px solid var(--background-button-demo-line);
 }
@@ -23,7 +22,6 @@
     padding: 0.8rem 1rem;
     box-sizing: border-box;
     display: inline;
-    margin-top: 1rem;
 
 
     background: var(--background-button-demo-line);
