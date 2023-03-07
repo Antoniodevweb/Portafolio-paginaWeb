@@ -1,9 +1,0 @@
-.professional__buttons-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background: var(--background-sections-grey);
-    width: 360px;
-    height: 76px;
-    margin-left: 0.5rem;
-}

@@ -1,3 +1,7 @@
+.professional__buttons{
+    background: var(--background-sections-grey);
+}
+
 .professional__bttn-first{
     border-radius: 0;
     width: 108px;
@@ -5,8 +9,6 @@
     padding: 0.8rem 1rem;
     box-sizing: border-box;
     background: var(--background-sections-grey);
-    align-self: flex-start;
-    display: inline;
     margin-top: 1rem;
 
     border: 1px solid var(--background-button-demo-line);
@@ -15,6 +17,7 @@
 .professional__bttn-second{
     border-radius: 0;
 
+    margin-left: 1rem;
     width: 108px;
     height: 40px;
     padding: 0.8rem 1rem;

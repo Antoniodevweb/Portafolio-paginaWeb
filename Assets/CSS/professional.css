@@ -1,11 +1,15 @@
 .professional__experience-with-bttns{
     width: 360px;
-    height: 324px;
+    height: 399px;
 
-    margin-left: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: .5rem;
 
     background: var(--background-sections-grey);
+}
+
+@media  screen and (min-width: 768px) {
+    .professional__experience-with-bttns{
+        width: 100vw;
+        height: 22vh;
+    }
 }
