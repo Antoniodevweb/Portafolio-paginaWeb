@@ -48,7 +48,8 @@
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-box.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-form-container.css">
     <link rel="stylesheet" href="/Assets/CSS/contact/contact-input-label-animation.css">
-    <link rel="stylesheet" href="/Assets/CSS/copyright.css">
+    <link rel="stylesheet" href="/Assets/CSS/">
+    <link rel="stylesheet" href="/Assets/CSS/contact/contact-input-container.css">
     <link rel="stylesheet" href="/Assets/CSS/copyright/copyright-title.css">
 </head>
 <body>
@@ -236,14 +237,14 @@
             <h2 class="professional__title-four">Tortilleria Yarina</h3>
             <p class="professional__text-four">2020 - rol producción</p>
         </section>
-        <footer class="contact-copyright__footer">
-            <div class="contact__text-container">
-                <h2 class="contact__title">Contacto</h2>
-                <p class="contact__text">Para contactarme</p>
-                <p class="contact__text">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
-            </div>
+        <footer class="contact__form">
             <div class="contact__form-container">
-                <form class="contact__form">
+                <div class="contact__text-container">
+                    <h2 class="contact__title">Contacto</h2>
+                    <p class="contact__text-question">¿Quieres contactarme?</p>
+                    <p class="contact__text-normal">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                </div>
+                <form class="contact__form-inputContainer">
                     <div class="contact__box">
                         <input class="contact__items" type="text" name="" id="textName">
                         <label for="textName" class="contact__label">
@@ -267,8 +268,9 @@
                         </textarea>
                         <label for="textArea" class="contact__label-textArea">Mensaje</label>
                     </div>               
-                    <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
                 </form>
+                <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
+            </div>
             </div>
             <div class="copyright__footer">
                 <h1 class="copyright__title">Desarrollado por Antonio Enrique Perez Fajardo 2023</h1>

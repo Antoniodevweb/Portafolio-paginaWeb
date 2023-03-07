@@ -1,3 +1,7 @@
 .contact__form{
-    background:none;
+    width: 360px;
+    height: 675px;
+
+    background: var(--background-sections-grey);
+    margin-left: 0.5rem;
 }

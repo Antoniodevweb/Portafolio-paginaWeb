@@ -5,7 +5,7 @@
     outline: 0px;
     border-bottom: 1px solid var(--background-contact-50);
     width: 296px;
-    height: 56px;
+    height: 49px;
 }
 
 .contact__textarea{
@@ -24,6 +24,7 @@
 
     color: var(--background-origin-white);
     outline: 0;
+    margin-top: 2rem;
     border: 1px solid var(--background-button-demo-line);
     background: var(--background-button-demo-line);
 }

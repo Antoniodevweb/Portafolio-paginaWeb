@@ -1,6 +1,7 @@
 .contact__text-container{
     width: 296px;
     height: 110px;
+    margin-bottom: 1rem;
 }
 
 
@@ -9,7 +10,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    margin: 1rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
 }
 
 .contact__text{
