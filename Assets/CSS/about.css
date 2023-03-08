@@ -15,7 +15,8 @@
 }
 
 .about{
-    width: 375px;
+    width: 768px;
+    height: 4379px;
     display: flex;
     flex-direction: column;
     font-family: var(--base-font);

@@ -2,3 +2,10 @@
     width: 296px;
     height: 144px;
 }
+
+@media  screen and (min-width: 768px) {
+    .professional__img-box{
+        width: 704px;
+        height: 230px;
+    }
+}

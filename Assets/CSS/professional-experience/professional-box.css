@@ -1,11 +1,25 @@
-.professional__items-box{
+.professional__items-box-buttons{
     width: 296px;
     height: 251px;
+    margin-bottom: 2rem;
 }
+
+.professional__items-box{
+    width: 296px;
+    height: 219.625px;
+    margin-bottom: 2rem;
+}
+
+
 
 @media  screen and (min-width: 768px) {
     .professional__items-box{
         width: 704px;
-        height: 427px;
+        height: 338px;
+    }
+
+    .professional__items-box-buttons{
+        width: 704px;
+        height: 337px;
     }
 }

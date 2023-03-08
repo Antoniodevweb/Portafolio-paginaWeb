@@ -5,5 +5,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+}
+
+@media  screen and (min-width: 768px) {
+    .professional_experience-container{
+        width: 100vw;
+        height: 169vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
