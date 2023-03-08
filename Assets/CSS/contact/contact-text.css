@@ -21,3 +21,10 @@
     width: 296px;
     margin-left: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .contact__text-container{
+        width: 91.146vw;
+        height: 4.725vh;
+    }
+}

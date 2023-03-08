@@ -28,3 +28,15 @@
     border: 1px solid var(--background-button-demo-line);
     background: var(--background-button-demo-line);
 }
+
+@media screen and (min-width: 768px) {
+    .contact__items{
+        width: 91.146vw;
+        height: 49px;
+    }
+
+    .contact__textarea{
+        width: 91.146vw;
+        height: 133px;
+    }
+}

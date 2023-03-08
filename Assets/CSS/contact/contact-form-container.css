@@ -3,3 +3,9 @@
     height: 611px;
     padding: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    .contact__form-container{
+        width: 91.146vw;
+    }
+}

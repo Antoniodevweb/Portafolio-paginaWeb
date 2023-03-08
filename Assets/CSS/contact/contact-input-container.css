@@ -4,3 +4,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (min-width: 768px) {
+    .contact__form-inputContainer{
+        width: 91.146vw;
+    }
+}

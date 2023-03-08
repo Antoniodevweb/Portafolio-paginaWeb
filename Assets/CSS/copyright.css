@@ -1,9 +1,12 @@
 .copyright__footer{
     width: 360px;
     height: 102px;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 768px) {
+    .copyright__footer{
+        width: 92vw;
+        height: 2.494vh;
+        padding: 2rem;
+    }
 }
