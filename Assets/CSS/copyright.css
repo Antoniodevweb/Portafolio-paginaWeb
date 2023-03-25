@@ -1,11 +1,4 @@
 .copyright__footer{
-    width: 360px;
-    height: 102px;
-}
-
-@media screen and (min-width: 768px) {
-    .copyright__footer{
-        width: 92vw;
-        padding: 2rem;
-    }
+    padding: 2rem;
+    text-align: center;
 }

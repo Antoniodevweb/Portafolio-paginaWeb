@@ -1,8 +1,6 @@
 .professional__experience{
-    width: 296px;
-    height: 1081px;
-
-    padding: 2rem;
+    width: 360px;
+    padding: 1rem;
 
     background: var(--background-sections-grey);
 }

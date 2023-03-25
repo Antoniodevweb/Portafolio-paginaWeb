@@ -1,9 +1,6 @@
 .contact__form{
     width: 360px;
-    height: 675px;
-
-    background: var(--background-sections-grey);
-    margin-left: 0.5rem;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 768px){

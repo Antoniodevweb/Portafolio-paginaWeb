@@ -1,11 +1,13 @@
 .contact__form-container{
-    width: 296px;
-    height: 611px;
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: var(--background-sections-grey);
 }
 
 @media screen and (min-width: 768px) {
     .contact__form-container{
-        width: 91.146vw;
+        width: 100vw;
     }
 }

@@ -16,7 +16,6 @@
 
 .about{
     width: 360px;
-    height: 4379px;
     display: flex;
     flex-direction: column;
     font-family: var(--base-font);

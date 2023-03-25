@@ -22,9 +22,11 @@
     width: 133px;
     height: 40px;
 
+    align-self: flex-start;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
     color: var(--background-origin-white);
     outline: 0;
-    margin-top: 2rem;
     border: 1px solid var(--background-button-demo-line);
     background: var(--background-button-demo-line);
 }

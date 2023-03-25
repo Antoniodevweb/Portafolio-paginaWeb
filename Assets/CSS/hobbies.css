@@ -1,8 +1,7 @@
 .hobbies{
     background: var(--background-sections-grey);
     width: 360px;
-    height: 508px;
-    margin-left: 0.5rem;
+    padding: 1rem;
 }
 
 .hobbies__container{
