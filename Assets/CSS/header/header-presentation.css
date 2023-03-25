@@ -28,13 +28,25 @@
     font-size: 14px;
 }
 
- .header__nav .header__nav-container{
+.header__nav .header__nav-container{
     display: none;
 }
 
 @media screen and (min-width: 425px) {
     .header__presentation{
         margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__nav .header__nav-container{
+        display:initial;
+    }
+    .header__nav{
+        display: flex;
+    }
+    .header__nav-container .navs{
+        padding: 0.4rem;
     }
 }
 
