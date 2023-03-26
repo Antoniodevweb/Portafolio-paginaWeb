@@ -14,11 +14,30 @@
 .links{
     text-decoration: none;
     color: var(--base-color-font);
+    font-weight: 700;
 }
 
 .links::after{
     content: url("/img/Vector.png");
     color: var(--base-color-font);
+}
+
+.links:hover{
+    color: var(--background-button-demo-line);
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__links{
+        justify-content: space-around;
+    }
+
+    .links{
+        color:  var(--background-origin-white);
+    }
+
+    .links::after{
+        display: none;
+    }
 }
 
 

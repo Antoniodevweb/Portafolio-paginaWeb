@@ -1,4 +1,19 @@
 .profile__title{
     font-size: 22px;
     font-weight: 700;
+    
+}
+
+.profile__description{
+    color: var(--background-origin-white);
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__title{
+        color: var(--background-origin-white);
+    }
+
+    .profile__description{
+        color: var(--background-origin-white);
+    }
 }
