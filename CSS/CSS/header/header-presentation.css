@@ -9,7 +9,7 @@
 }
 
 .header__title::before{
-    content: url("img/stars.png");
+    content: url("../img/stars.png");
 }
 
 .header__title{
