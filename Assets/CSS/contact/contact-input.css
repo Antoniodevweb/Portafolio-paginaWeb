@@ -22,7 +22,7 @@
     width: 133px;
     height: 40px;
 
-    align-self: flex-end;
+    align-self: flex-start;
     margin-left: 2rem;
     margin-bottom: 1rem;
     color: var(--background-origin-white);
@@ -49,6 +49,9 @@
         height: 56px;
     }
 
+    .contact__input-submit{
+        align-self: flex-end;
+    }    
     .contact__textarea{
         width: 656px;
         height: 133px;

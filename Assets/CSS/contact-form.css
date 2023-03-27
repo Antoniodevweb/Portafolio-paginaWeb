@@ -1,5 +1,6 @@
 .contact__form{
     width: 392px;
+    background: var(--background-sections-grey);
 }
 
 .contact__form-img{
