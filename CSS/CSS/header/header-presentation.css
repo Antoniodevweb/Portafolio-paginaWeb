@@ -52,7 +52,14 @@
 
     .navs{
         text-decoration: none;
+        font-family: var(--base-font);
         color: var(--base-color-font);
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .navs:hover{
+        color: var(--background-button-demo-line);
     }
 }
 
