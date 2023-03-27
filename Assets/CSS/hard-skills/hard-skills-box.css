@@ -26,3 +26,10 @@
         height: 118px;
     }
 }
+
+@media  screen and (min-width: 1024px) {
+    .hard__items-box{
+        width: 154px;
+        height: 118px;
+    }
+}

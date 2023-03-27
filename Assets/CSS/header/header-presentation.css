@@ -44,9 +44,15 @@
     }
     .header__nav{
         display: flex;
+        align-items: center;
     }
     .header__nav-container .navs{
         padding: 0.4rem;
+    }
+
+    .navs{
+        text-decoration: none;
+        color: var(--base-color-font);
     }
 }
 
