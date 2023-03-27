@@ -33,7 +33,7 @@
     .profile{
         flex-direction: column;
         align-items: center;
-        background-image: url("img/Bckgrd-minerva.jpg");
+        background-image: url("/img/Bckgrd-minerva.jpg");
         width: 100vw;
     }
 }
