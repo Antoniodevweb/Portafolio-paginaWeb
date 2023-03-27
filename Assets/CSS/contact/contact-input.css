@@ -22,7 +22,7 @@
     width: 133px;
     height: 40px;
 
-    align-self: flex-start;
+    align-self: flex-end;
     margin-left: 2rem;
     margin-bottom: 1rem;
     color: var(--background-origin-white);
