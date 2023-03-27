@@ -9,3 +9,10 @@
         height: 230px;
     }
 }
+
+@media  screen and (min-width: 768px) {
+    .professional__img-box{        
+        width: 752px;
+        height: 406px;
+    }
+}

@@ -13,3 +13,17 @@
         padding-left: 0px;
     }
 }
+
+@media  screen and (min-width: 1024px) {
+    .professional__experience{
+        width: 100vw;
+
+        padding-right: 0px;
+        padding-left: 0px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

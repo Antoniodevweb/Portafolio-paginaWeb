@@ -42,3 +42,15 @@
         height: 133px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .contact__items{
+        width: 656px;
+        height: 56px;
+    }
+
+    .contact__textarea{
+        width: 656px;
+        height: 133px;
+    }
+}

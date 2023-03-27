@@ -10,3 +10,10 @@
         width: 91.146vw;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .contact__form-inputContainer{
+        width: 656px;
+        height: 397px;
+    }
+}

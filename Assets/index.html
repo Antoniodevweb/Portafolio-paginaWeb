@@ -213,19 +213,21 @@
             <h2 class="professional__main-title">Experiencia Profesional</h2>
             <div class="professional_experience-container">
                 <div class="professional__items-box-buttons">
-                    <div>
+                    <div class="professional__exp--container-img">
                         <img src="/img/Opera Captura de pantalla_2023-03-03_141055_127.0.0.1.png" alt="Encriptador-antonio" class="professional__img-box">
                     </div>
-                    <div class="professional__text">
-                        <h2 class="professional__title">Encriptador de texto</h3>
-                        <p class="professional__text-one">Challenge Oracle - 2022</p>
-                    </div>
-                    <div class="professional__buttons">
-                        <button class="professional__bttn-first"><a href="https://github.com/Antoniodevweb/Mi_primer_Encriptador_Challengue_Oracle_Alura" class="professional__link-bttn-one">Repositorio</a></button>
-                        <button class="professional__bttn-second"><a href="https://antoniodevweb.github.io/Mi_primer_Encriptador_Challengue_Oracle_Alura/" class="professional__link-bttn-two">Ver demo</a></button>
+                    <div class="professional__exp--container-text-bttns">
+                        <div class="professional__text">
+                            <h2 class="professional__title">Encriptador de texto</h3>
+                            <p class="professional__text-one">Challenge Oracle - 2022</p>
+                        </div>
+                        <div class="professional__buttons">
+                            <button class="professional__bttn-first"><a href="https://github.com/Antoniodevweb/Mi_primer_Encriptador_Challengue_Oracle_Alura" class="professional__link-bttn-one">Repositorio</a></button>
+                            <button class="professional__bttn-second"><a href="https://antoniodevweb.github.io/Mi_primer_Encriptador_Challengue_Oracle_Alura/" class="professional__link-bttn-two">Ver demo</a></button>
+                        </div>
                     </div>
                 </div>
-                <div class="professional__items-box">
+                <div class="professional__items-box-1">
                     <div>
                         <img class="professional__img-box" src="/img/curso-auxiliar-contable-2.png" alt="Error carga">
                     </div>
@@ -234,17 +236,17 @@
                         <p class="professional__text-two">2022 - Albergues maritimos SA de CV</p>
                     </div>
                 </div>
-                <div class="professional__items-box">
-                    <div>
+                <div class="professional__items-box-2">
+                    <div class="professional__exp--container-img">
                         <img src="/img/teacher python.png" alt="Error carga" class="professional__img-box">
                     </div>
-                    <div>
+                    <div class="professional__exp--container-text-bttns">
                         <h2 class="professional__title">Servicio Social - Maestro de python</h3>
                         <p class="professional__text-three">2023 - En curso</p>
                     </div>
                 </div>
-                <div class="professional__items-box">
-                    <div>
+                <div class="professional__items-box-3">
+                    <div class="professional__exp--container-img">
                         <img src="/img/tortilla-de-harina.png" alt="Error carga" class="professional__img-box">
                     </div>
                     <div>
@@ -256,39 +258,41 @@
         </section>
         <footer class="contact__form" id="contact__form">
             <div class="contact__form-container">
-                <div class="contact__text-container">
-                    <h2 class="contact__title">Contacto</h2>
-                    <p class="contact__text-question">¿Quieres contactarme?</p>
-                    <p class="contact__text-normal">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                <img src="/img/img-phone-contact.png" alt="Phone img" class="contact__form-img">
+                <div class="contact__form-box-container">
+                    <div class="contact__text-container">
+                        <h2 class="contact__title">Contacto</h2>
+                        <p class="contact__text-question">¿Quieres contactarme?</p>
+                        <p class="contact__text-normal">Completa el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                    </div>
+                    <form class="contact__form-inputContainer">
+                        <div class="contact__box">
+                            <input class="contact__items" type="text" name="" id="textName">
+                            <label for="textName" class="contact__label">
+                            <span class="contact__span">Nombre</span>
+                            </label>
+                        </div>
+                        <div class="contact__box">
+                            <input class="contact__items" type="email" name="" id="e-mail">
+                            <label for="e-mail" class="contact__label">
+                            <span class="contact__span">Email</span>
+                            </label>
+                        </div>
+                        <div class="contact__box">
+                            <input class="contact__items" type="text" name="" id="textSubject">
+                            <label for="textSubject" class="contact__label">
+                            <span class="contact__span">Asunto</span>
+                            </label>
+                        </div>
+                        <div class="contact__box">
+                            <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
+                            </textarea>
+                            <label for="textArea" class="contact__label-textArea">Mensaje</label>
+                        </div>
                 </div>
-                <form class="contact__form-inputContainer">
-                    <div class="contact__box">
-                        <input class="contact__items" type="text" name="" id="textName">
-                        <label for="textName" class="contact__label">
-                        <span class="contact__span">Nombre</span>
-                        </label>
-                    </div>
-                    <div class="contact__box">
-                        <input class="contact__items" type="email" name="" id="e-mail">
-                        <label for="e-mail" class="contact__label">
-                        <span class="contact__span">Email</span>
-                        </label>
-                    </div>
-                    <div class="contact__box">
-                        <input class="contact__items" type="text" name="" id="textSubject">
-                        <label for="textSubject" class="contact__label">
-                        <span class="contact__span">Asunto</span>
-                        </label>
-                    </div>
-                    <div class="contact__box">
-                        <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
-                        </textarea>
-                        <label for="textArea" class="contact__label-textArea">Mensaje</label>
-                    </div>               
+                <input class="contact__input-submit" type="submit" value="Enviar Mensaje">             
                 </form>
-                <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
             </div>
-            </div> 
         </footer>
         <footer class="copyright" >
             <h1 class="copyright__title">Desarrollado por Antonio Enrique Pérez Fajardo 2023</h1>
