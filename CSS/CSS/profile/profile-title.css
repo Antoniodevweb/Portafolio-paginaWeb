@@ -10,10 +10,10 @@
 
 @media screen and (min-width: 1024px) {
     .profile__title{
-        color: var(--background-contact-50);
+        color: var(--background-origin-white);
     }
 
     .profile__description{
-        color: var(--background-contact-50);
+        color: var(--background-origin-white);
     }
 }
